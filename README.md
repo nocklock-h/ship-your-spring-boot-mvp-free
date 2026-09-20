@@ -19,9 +19,8 @@ This is for you if:
 ## What you get in the Free Edition
 
 - [15 Critical Spring Boot Ship Blockers](checklist/15-ship-blockers.md)
-- A simple pre-launch checklist
+- [Spring Boot MVP Ship Readiness Score](checklist/ship-score-template.md)
 - [AI-assisted Deployment Blocker Review Prompt](prompts/deployment-blocker-review.md)
-- A basic ship-readiness score
 
 ## The Goal
 
@@ -33,12 +32,13 @@ The goal is simple:
 
 ## Quick Start
 
-1. Open the Ship Blockers checklist
+1. Open the [15 Spring Boot MVP Ship Blockers](checklist/15-ship-blockers.md)
 2. Check your project against each item
-3. Run the AI review prompt against your codebase
-4. Fix critical blockers
-5. Deploy
-6. Run a final smoke test
+3. Calculate your [Ship Readiness Score](checklist/ship-score-template.md)
+4. Run the [Deployment Blocker Review Prompt](prompts/deployment-blocker-review.md)
+5. Fix critical blockers
+6. Deploy
+7. Run a final smoke test
 
 ## Full Edition
 
