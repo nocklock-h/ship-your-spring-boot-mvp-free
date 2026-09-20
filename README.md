@@ -23,15 +23,6 @@ This is for you if:
 - [AI-assisted Deployment Blocker Review Prompt](prompts/deployment-blocker-review.md)
 - A basic ship-readiness score
 
-## Quick Start
-
-1. Open the [15 Spring Boot MVP Ship Blockers](checklist/15-ship-blockers.md)
-2. Check your project against each item
-3. Run the [Deployment Blocker Review Prompt](prompts/deployment-blocker-review.md) against your codebase
-4. Fix critical blockers
-5. Deploy
-6. Run a final smoke test
-
 ## The Goal
 
 Not another Spring Boot tutorial.
