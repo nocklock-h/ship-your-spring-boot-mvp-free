@@ -52,25 +52,27 @@ This is probably not the right resource if you are looking for:
 ---
 
 ## What is included
+## What is included
 
 ### 1. 15 Critical Spring Boot Ship Blockers
 
-A compact review covering:
+A compact pre-release review covering build, configuration, secrets,
+database, security, deployment, and production behavior.
 
-- build and tests
-- configuration and secrets
-- database and external integrations
-- application security
-- deployment and production behavior
-
-Start here:
-
-**[`15-ship-blockers.md`](./15-ship-blockers.md)**
-
----
+[Open the checklist](./checklist/15-ship-blockers.md)
 
 ### 2. Evidence-first AI review
 
+Use AI as a second reviewer and require evidence for every claim.
+
+[Open the AI review prompt](./prompts/deployment-blocker-review.md)
+
+### 3. Release evidence template
+
+Record the release commit, verification evidence, unresolved risks,
+production smoke test, and rollback point.
+
+[Open the release template](./checklist/ship-score-template.md)
 AI can be useful as a second reviewer, but it should not own the release decision.
 
 Instead of asking:
@@ -100,6 +102,9 @@ evidence ≠ inference
 If the evidence is missing, the result should be NOT VERIFIED.
 
 3. Minimal release evidence record
+For a reusable release record:
+
+[`ship-score-template.md`](./checklist/ship-score-template.md)
 
 You do not need a complicated release system for every MVP.
 
@@ -170,6 +175,8 @@ interactive verification checkboxes
 editable evidence fields
 detailed failure actions
 AI review prompts
+You can also use the repository prompt:
+[`deployment-blocker-review.md`](./prompts/deployment-blocker-review.md)
 deployment and rollback guidance
 reusable release templates
 chapter-level ship / no-ship decisions
@@ -195,6 +202,29 @@ production-ready for every use case
 Different applications may require additional architecture, performance, privacy, legal, compliance, security, infrastructure, or operational review.
 
 Use this workflow as a starting point, not as a substitute for engineering judgment.
+
+## Extended release workflow
+
+This repository intentionally stays small and Markdown-based.
+
+While developing the workflow, I also created a more structured version for releases that need stronger evidence tracking.
+
+It adds:
+
+- a six-stage release workflow
+- interactive verification checkboxes
+- editable evidence fields
+- detailed failure actions
+- AI review prompts
+- deployment and rollback guidance
+- reusable release templates
+- chapter-level ship / no-ship decisions
+
+If the lightweight checklist here is enough, keep using it.
+
+If you want the more structured workflow:
+
+[Explore the 58-Page Spring Boot Deployment Runbook](https://nocklock.lemonsqueezy.com/checkout/buy/587f273f-2eb7-4e55-9ad7-cfdcba6acc99)
 
 About Nocklock
 
