@@ -10,6 +10,8 @@ This repository focuses on a simple release habit:
 
 It is designed for developers who want a lightweight way to catch obvious release blockers and verify their assumptions before shipping.
 
+**Want the complete workflow? → [Explore the 58-Page Spring Boot Deployment Runbook](https://nocklock.lemonsqueezy.com/checkout/buy/587f273f-2eb7-4e55-9ad7-cfdcba6acc99)**
+
 > AI-assisted. Built for human verification. Evidence-backed.
 
 ---
